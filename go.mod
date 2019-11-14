@@ -11,6 +11,7 @@ require (
 	github.com/go-gl/glfw v0.0.0-20190409004039-e6da0acd62b1 // indirect
 	github.com/go-gl/mathgl v0.0.0-20190416160123-c4601bc793c7 // indirect
 	github.com/hajimehoshi/oto v0.3.4
+	github.com/jacobsa/go-serial v0.0.0-20180131005756-15cf729a72d4
 	github.com/mattn/go-gtk v0.0.0-20190405072524-4deadb416788
 	github.com/mattn/go-pointer v0.0.0-20180825124634-49522c3f3791 // indirect
 	github.com/pkg/errors v0.8.1 // indirect

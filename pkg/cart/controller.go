@@ -118,6 +118,11 @@ func (c *Cart) Save() {
 
 // NewCartFromFile loads a cartridge ROM from a file.
 func NewCartFromFile(filename string) (*Cart, error) {
+	if(filename == "SERIAL") {
+		return &Cart{
+			BankingController: NewSerialROM(),
+		}, nil
+	}
 	rom, err := loadROMData(filename)
 	if err != nil {
 		return nil, err
